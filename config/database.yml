@@ -52,6 +52,7 @@ default: &default
 #   database: protospace_38614_production
 #   username: protospace_38614
 #   password: <%= ENV['PROTOSPACE_38614_DATABASE_PASSWORD'] %>
+
 development:
   <<: *default
   adapter: mysql2
